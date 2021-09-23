@@ -786,7 +786,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
         freopen_s(&stream, ".\\log\\out_regsetvalue.txt", "w+", stdout);
         freopen_s(&stream, ".\\log\\out_writefile.txt", "w+", stdout);
         freopen_s(&stream, ".\\log\\warning.txt", "w+", stdout);
-
+        freopen_s(&stream, ".\\log\\num.txt", "w+", stdout);
         fclose(stream);
         DisableThreadLibraryCalls(hModule);
         attach();

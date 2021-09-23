@@ -1,0 +1,10 @@
+﻿  pch.cpp
+  dllmain.cpp
+    正在创建库 G:\User\Desktop\ruanankeshe\YYY\InjectDll\x64\Debug\InnjectDll.lib 和对象 G:\User\Desktop\ruanankeshe\YYY\InjectDll\x64\Debug\InnjectDll.exp
+dllmain.obj : error LNK2019: 无法解析的外部符号 DetourTransactionBegin，函数 "void __cdecl attach(void)" (?attach@@YAXXZ) 中引用了该符号
+dllmain.obj : error LNK2019: 无法解析的外部符号 DetourTransactionCommit，函数 "void __cdecl attach(void)" (?attach@@YAXXZ) 中引用了该符号
+dllmain.obj : error LNK2019: 无法解析的外部符号 DetourUpdateThread，函数 "void __cdecl attach(void)" (?attach@@YAXXZ) 中引用了该符号
+dllmain.obj : error LNK2019: 无法解析的外部符号 DetourAttach，函数 "void __cdecl attach(void)" (?attach@@YAXXZ) 中引用了该符号
+dllmain.obj : error LNK2019: 无法解析的外部符号 DetourDetach，函数 "void __cdecl detach(void)" (?detach@@YAXXZ) 中引用了该符号
+G:\User\Desktop\ruanankeshe\Detours-master\lib.X86\detours.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+G:\User\Desktop\ruanankeshe\YYY\InjectDll\x64\Debug\InnjectDll.dll : fatal error LNK1120: 5 个无法解析的外部命令
